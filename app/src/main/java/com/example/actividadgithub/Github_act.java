@@ -45,6 +45,14 @@ public class Github_act extends AppCompatActivity {
                 {
                     txPrecio.setText("El precio de El Alquimista es :"+valorLibros.getVElAlquimista());
                 }
+                if (spLibros.getSelectedItem().toString().equals("El Poder"))
+                {
+                    txPrecio.setText("El precio de El Poder es :"+valorLibros.getVElpoder());
+                }
+                if (spLibros.getSelectedItem().toString().equals("Despertar"))
+                {
+                    txPrecio.setText("El precio de Despertar es :"+valorLibros.getVDespertar());
+                }
             }
             @Override
             public void onNothingSelected(AdapterView<?> parentView)
